@@ -16,7 +16,8 @@ const requiredCopy = [
   "Marine science",
   "Teaching",
   "Art",
-  "maxie-safdie.com"
+  "maxiesafdie@gmail.com",
+  "linkedin.com/in/maxie-safdie-8148882a2"
 ];
 
 let failed = false;
