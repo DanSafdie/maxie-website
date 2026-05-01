@@ -2,7 +2,11 @@
 
 Personal umbrella website for Maxie Safdie, with dedicated sections for art, teaching, and marine science.
 
-Planned production URL: `https://maxie-safdie.com`
+Production URL: `https://maxie-website.vercel.app`
+
+Planned custom domain: `https://maxie-safdie.com`
+
+GitHub repository: `https://github.com/DanSafdie/maxie-website`
 
 ## Site Structure
 
@@ -34,16 +38,36 @@ Run the lightweight content check:
 npm run check
 ```
 
-## Deploying Through GitHub And Vercel
+## Deployment
 
-1. Create a GitHub repository for this project.
-2. Push the local `main` branch to GitHub.
-3. In Vercel, import the GitHub repository as a new project.
-4. Use the default static project settings. No build command is required.
-5. Add the custom domain `maxie-safdie.com` in Vercel after Maxie confirms the final URL.
-6. Follow Vercel's DNS instructions for the domain registrar.
+The site is deployed on Vercel as `maxie-website`.
 
-Vercel will create preview deployments for pull requests and deploy production from the main branch.
+Current production alias:
+
+```text
+https://maxie-website.vercel.app
+```
+
+The Vercel project has `maxie-safdie.com` and `www.maxie-safdie.com` attached, but DNS still needs to be configured at the registrar.
+
+Vercel requested these DNS records:
+
+```text
+A maxie-safdie.com 76.76.21.21
+A www.maxie-safdie.com 76.76.21.21
+```
+
+After DNS is configured and verified, the custom domain should resolve to this site.
+
+## GitHub And Vercel Integration
+
+The GitHub repository is pushed to `main`.
+
+```text
+https://github.com/DanSafdie/maxie-website
+```
+
+The Vercel CLI attempted to connect the GitHub repository, but Vercel returned an access error. To finish automatic GitHub deployments, open the Vercel dashboard, connect the project to `DanSafdie/maxie-website`, and make sure the Vercel GitHub app has access to that repository.
 
 ## Content Notes
 
