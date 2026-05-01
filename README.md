@@ -16,6 +16,7 @@ GitHub repository: `https://github.com/DanSafdie/maxie-website`
 - `teaching.html` - tutoring, classroom teaching, and adjunct teaching experience
 - `content/linkedin/experience.md` - saved LinkedIn experience export used as source material
 - `content/linkedin/education.md` - saved LinkedIn education export used as source material
+- `assets/art/` - web-ready art documentation images used on the art page
 - `styles.css` - shared visual system
 
 ## Local Development
@@ -74,6 +75,13 @@ The Vercel CLI attempted to connect the GitHub repository, but Vercel returned a
 The current copy is based on the provided LinkedIn markdown files plus the initial notes for Maxie's art practice. Replace placeholder project descriptions with final artwork titles, images, and contact links when Maxie is ready.
 
 Additional art reference: Shagshop Rooftop band art and release context is visible at `https://www.shagshoprooftop.com/`.
+
+Etsy shop: `https://www.etsy.com/shop/bymaxie`
+
+- Shop name: `bymaxie`
+- Owner shown on Etsy: Maxie Safdie
+- Current fit for site integration: outbound "Shop prints on Etsy" links from the art page.
+- Notes from May 1, 2026: the shop appears focused on handmade linocut prints, including animal, marine, landscape, and figure subjects. Etsy showed 11 active items, 5 sales, 2 reviews, and 4 years on Etsy at the time this was added.
 
 Contact details currently shown on the site:
 

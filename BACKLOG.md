@@ -32,6 +32,12 @@
   - Posters
   - Other work
 - Add room for high-quality images without making the page feel like a generic store.
+- Keep Etsy as the purchasing layer unless Maxie wants this site to become its own storefront.
+- Potential Etsy integration levels:
+  - Current: direct "Shop prints on Etsy" links from the art page.
+  - Near-term: manually feature selected Etsy listings on the art page with title, image, price, and an outbound buy link.
+  - Later: use Etsy's API for dynamic listings only if Maxie wants automatic inventory sync and is comfortable managing API credentials.
+  - Avoid iframe/scraped embeds unless Etsy provides an officially supported widget; they tend to be brittle and visually hard to control.
 
 ## Employer-Facing Improvements
 
