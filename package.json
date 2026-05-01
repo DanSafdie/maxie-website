@@ -1,0 +1,17 @@
+{
+  "name": "maxie-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal umbrella website for Maxie Safdie.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "start": "python3 -m http.server 4173",
+    "check": "node scripts/check-site.mjs"
+  },
+  "keywords": [
+    "portfolio",
+    "static-site",
+    "vercel"
+  ],
+  "license": "UNLICENSED"
+}
