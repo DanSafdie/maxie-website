@@ -12,6 +12,7 @@ GitHub repository: `https://github.com/DanSafdie/maxie-website`
 
 - `index.html` - homepage and overview
 - `art.html` - studio art, ceramics, prints, album art, posters, and other work
+- `ceramics.html` - ceramic studies detail page
 - `marine-science.html` - biochemistry, coral restoration, diving, and marine science experience
 - `teaching.html` - tutoring, classroom teaching, and adjunct teaching experience
 - `content/linkedin/experience.md` - saved LinkedIn experience export used as source material

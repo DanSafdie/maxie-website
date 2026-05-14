@@ -3,6 +3,7 @@ import { readFileSync, existsSync } from "node:fs";
 const files = [
   "index.html",
   "art.html",
+  "ceramics.html",
   "marine-science.html",
   "teaching.html",
   "styles.css",
@@ -29,7 +30,7 @@ for (const file of files) {
   }
 }
 
-const pages = ["index.html", "art.html", "marine-science.html", "teaching.html"]
+const pages = ["index.html", "art.html", "ceramics.html", "marine-science.html", "teaching.html"]
   .map((file) => readFileSync(file, "utf8"))
   .join("\n");
 
